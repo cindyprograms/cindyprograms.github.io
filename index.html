@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Welcome to Interaxon!</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    
+    <FilesMatch "\.(ttf|otf|eot)$">
+    <IfModule mod_headers.c>
+        Header set Access-Control-Allow-Origin "*"
+    </IfModule>
+	</FilesMatch>
+
+</head>
+
+<body>
+	<div class="header">
+    <div class="header_inner">
+		<!---------- BANNER ---------->
+		<div class="banner"> 
+       	  <a href="index.html"><img src="img/banner.png" alt="Banner" width="375"></a> 
+        </div>
+        <!---------- NAVBAR ---------->
+        <div class="navbar">
+		<ul>	
+        	<li><a href="about.html">What We Do</a> </li>
+    		<li><a href="teachers.html">For Teachers</a> </li>
+    		<li><a href="members.html">Join the Team</a> </li>
+    		<li><a href="gallery.html">Gallery</a> </li>
+    		<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+        </div>
+    </div><!-- end Header_inner -->
+	</div><!-- end Header -->
+
+    <div style="clear: both;"></div>
+    <div class="container_home">
+    
+		<!---------- SLIDER (holder) ---------->
+        <div id="slider">
+        	<img src="img/interaxon.png" alt="Interaxon" width="1050">
+        </div>
+        
+        <!---------- CONTENT ---------->
+        
+    	<div id="home_wrapper">
+		<div id="span1">
+			<h2>What we do</h2>
+            <p>We seek to enlighten children about neuroscience by presenting 
+                to students in less-privileged K-12 schools.</p>
+            <p><a href="about.html">Click here to find out more &raquo;</a></p>
+        </div><!-- end span1 -->
+            
+		<div id="span2">
+			<h2>Welcome teachers</h2>
+            <p>Interaxon provides a great opportunity for your students
+                to become more engaged in and excited about science.</p>
+            <p><a href="https://docs.google.com/forms/d/1CH9NBbwhyPZhcf3AFWHX_k88Yf4cEfHRfItuteUFFmU/viewform" target="_blank">Click here to schedule a presentation &raquo;</a></p>
+        </div><!-- end span2 -->
+            
+		<div id="span3">
+			<h2>Become a member</h2>
+            <p>Interaxon is a rewarding opportunity that allows you to help teach 
+                elementary through high school students about neuroscience.</p>
+            <p><a href="members.html">Click here to join &raquo;</a></p>
+        </div><!-- end span3 -->
+	</div><!-- end Home_wrapper -->
+	<div style="clear: both;"></div>
+    </div><!-- end Container -->
+    
+    <div style="clear: both;"></div>
+	 <!---------- FOOTER ---------->
+    <div class="footer">
+		<p> interaxon@ucsd.edu </p>
+	</div>
+	
+    
+
+</body>
+</html>
