@@ -36,7 +36,7 @@ height: 100%;
     position: relative;
 
 }
-#cover-overlay { /*checklater*/
+#cover-overlay { 
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.2);
@@ -53,14 +53,14 @@ height: 100%;
     color: white;
     padding: 20px 0px;
 }
-#cover-content {
+#cover-content { /*cindytitle*/
     position: absolute;
     top: 50%;
     color: white;
-    text-align: right;
+    text-align: left;
     width: 100%;
     margin-bottom: -75px;
-    padding-right: 40px;
+    padding-right: 80px;
 }
 #cover-title {
     font-size: 64px;
