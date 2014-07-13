@@ -33,12 +33,12 @@ $(document).ready(function(){
 
 
   $(".cover-nav-item").hover(function(){
-  $(this).css("color","#00b0d7");
+  $(this).css("color","#669999");
   },function(){
   $(this).css("color","white");
 });
   $("#learn").hover(function(){
-  $(this).css("color","#00b0d7");
+  $(this).css("color","#669999");
   },function(){
   $(this).css("color","white");
 });
