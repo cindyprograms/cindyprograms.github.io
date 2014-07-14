@@ -4,6 +4,14 @@ margin: 0px;
 background: #f7f5f2;
 }
 
+.container {
+    width: 500px;
+    height: 600px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}​
 
 a {
 color: inherit;
@@ -33,7 +41,7 @@ height: 100%;
     top:0px;
     background-size: cover;
    }
-   
+
 #cover {
     position: relative;
 
