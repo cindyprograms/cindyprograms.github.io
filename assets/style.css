@@ -21,7 +21,6 @@ clear: both;
     width: 240px;
     height: 240px;
     margin: 0px auto;
-    border-radius: 50%;
     overflow: hidden;
     border: 10px solid rgba(255, 255, 255, 0.5);
 }
