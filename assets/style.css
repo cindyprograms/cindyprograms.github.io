@@ -16,3 +16,10 @@ clear: both;
 . navbar {
     color:red;
 }
+
+.container {
+    width: 720px;
+    margin: 0px auto;
+    text-align: center;
+    color: red;
+}
